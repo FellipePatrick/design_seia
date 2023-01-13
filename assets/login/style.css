@@ -6,3 +6,10 @@ section {
     background-position: center;
     background-attachment: fixed;
 }
+
+/* Query para dispositivos móvies */
+@media screen and (max-width: 768px) {
+    section {
+        background-image: none;
+    }
+}
