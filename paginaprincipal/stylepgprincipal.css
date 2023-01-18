@@ -1,0 +1,119 @@
+
+
+:root {
+    --blue:#3445b4;
+    --white:white;
+    --bluelitle: #44bef1;
+    --cinza:rgba(255, 255, 255, 0.6);
+    --azul:  #ecf0f4;
+}
+
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+    height: 100%;}
+  
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    height: 100%; 
+    background-color: var(--azul);   }
+
+
+.row {
+    height: 100%; /* Escolha uma altura para a row */
+
+    margin: 0px !important;
+}
+
+main{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width:100%; 
+    height:100%;
+    background-color: var(--azul);
+
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none; }
+
+    .menu_lateral {
+        background-color:var(--blue);
+        width: 280px;
+        height: 100%;
+        color:var(--white);
+    }
+    
+    .menu_lateral li span{
+        color: var(--bluelitle);
+     }
+    
+    .menu_lateral  a {
+       text-decoration: none;
+       color: var(--cinza);
+    }
+    .menu_lateral li a:hover{
+        color: var(--white);
+     }
+
+     hr {
+        border: 0;
+        border-top: 1px solid var(--cinza);
+    }
+    .meu_barra{
+        width: 100%;
+    }
+
+    .img_desc{
+        width: 65px;
+        border-radius: 100%;
+    }
+
+    .nome_desc{
+        font-size: 13px;
+    }
+    .funcao_desc{
+        color: var(--cinza);
+        font-size: 11px;
+    }
+    
+  
+
+    span{
+        padding: 0px !important;
+        margin: 0px;
+    }
+
+    .prefil_barra span .dropdown {
+        background-color: var(--white)  !important;
+    }
+    .container-fluid{
+        height: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .col-md-3{
+        padding-right   : 0px !important;
+        padding-left: 0px !important;
+    }
+    .col-md-9{
+        padding-right   : 0px !important;
+        padding-left: 0px !important;
+    }
+    .main1{
+        margin-right: 0px !important  ;
+        width: 80% !important;
+        background-color: var(--white);
+        height: 50px !important;
+    }
