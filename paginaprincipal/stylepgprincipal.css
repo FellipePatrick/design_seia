@@ -56,13 +56,13 @@ main{
     }
     
     #wraper {
-        overflow: hidden;
+    
         min-height: 100%;
       }
       
       #wraper > div {
-         padding-bottom: 500em;
-         margin-bottom: -500em;
+         padding-bottom: 200em;
+         margin-bottom: -200em;
       }
 
 
