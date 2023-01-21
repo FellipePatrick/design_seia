@@ -8,10 +8,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">  
-        <link rel="stylesheet" href="/paginaprincipal/stylepgprincipal.css">
+        <link rel="stylesheet" href="/stylepgprincipal.css">
     </head>
     <body>
-        <div class="container-fluid d-flex">
+        <div class="container-fluid d-flex" id="wraper">
             <div class="menu_lateral">
                 <nav>
                     <div class="p-4">
@@ -90,53 +90,72 @@
                          </div>
                      </div>
                 </div>
-                <main class="my-5">
+                <main class="">
                         <div class="row">
-                            <div class="div offset-1 col-10 offset-1">
-                                <span class="fw-bold">NOTIFICAÇÕES</span>
-                                <div class="div my-3" >
-                                    <div class="row" >
-                                        <div class="col-md-3 ">
-                                            <div class="card" style="width: 18rem;">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Card title</h5>
-                                                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                  <a href="#" class="card-link">Card link</a>
-                                                  <a href="#" class="card-link">Another link</a>
-                                                </div>
-                                              </div>
+                            <div class=" ">
+                                <div class="container mt-5 calendario-atividades">
+                            <div class="header-aulas">
+                              <span  class="fs-4 fw-bold">Aulas da semana</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-center align-items-center calendar p-4">
+                                <i class="ph-caret-left fs-2 text-white"></i>
+                                <div class="container text-white d-flex flex-column justify-content-center align-items-center">
+                                    <i class="ph-calendar fs-4 "></i>
+                                    <span class="semana">Semana 16</span>
+                                    <span>11/7 a 17/7</span>
+                                </div>
+                                <i class="ph-caret-right fs-2 text-white"></i>
+                            </div>
+                            <div class="text-center text-danger fw-bold py-2">Nenhuma aula cadastrada essa semana</div>
+                          </div>
+                            </div>
+                            <div class="div ">
+                                <div class="banners mt-5  ">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title align-items-center d-flex gap-2"><i class="fa fa-bell-o" aria-hidden="true"></i>Notícias</h5>
+                                            <p class="card-text text-danger pt-4">Nenhuma notícia</p>
+                                            <a href="#" class="btn btn-primary">Ver mais</a>
                                         </div>
-                                        <div class="offset-md-1 col-md-3">
-                                            <div class="card" style="width: 18rem;">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Card title</h5>
-                                                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                  <a href="#" class="card-link">Card link</a>
-                                                  <a href="#" class="card-link">Another link</a>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4  gap-2 align-items-center d-flex"><i class="fa fa-envelope-o" aria-hidden="true"></i> Mensagens</h5>
+                                            <a href="./mensagens.html" class="text-decoration-none">
+                                                <div class=" my-3 mensagem gap-3 d-flex flex-column ">
+                                                    <span class="nome fw-bold">Cibele Feres</span>
+                                                    <span class="email">
+                                                        <div class="text-truncate text-nowrap text-reset">Lorem idivum dolor sit amet...</div>
+                                                    </span>
                                                 </div>
-                                              </div>
+                                            </a>   
+                                            <a href="./mensagens.html" class="text-decoration-none">
+                                                <div class=" my-3 mensagem gap-3 d-flex flex-column ">
+                                                    <span class="nome fw-bold">Derik Woerd</span>
+                                                    <span class="email">
+                                                        <div class="text-truncate text-nowrap text-reset">Lorem idivum dolor sit amet...</div>
+                                                    </span>
+                                                </div>
+                                            </a>                                  
+                                            
+        
+                                            <a href="./mensagens.html" class="btn btn-primary">Ver todas</a>
                                         </div>
-                                        <div class="offset-md-1 col-md-3">
-                                            <div class="card" style="width: 18rem;">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Card title</h5>
-                                                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                  <a href="#" class="card-link">Card link</a>
-                                                  <a href="#" class="card-link">Another link</a>
-                                                </div>
-                                              </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title gap-2 align-items-center d-flex"> <i class="fa fa-clock-o" aria-hidden="true"></i> Atividades pendentes</h5>
+                                            <p class="card-text pt-4 text-danger">Nenhuma atividade encontrada</p>
+                                            <a href="#" class="btn btn-primary">Ver mais</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <footer>
+                                
+                            </footer>
                         </div>
-                </main>
-
-                <main>
-                    
                 </main>
               </main>
         </div>
